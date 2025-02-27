@@ -1,0 +1,235 @@
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      overflow-x: hidden;
+    }
+
+    .custom-navbar {
+      height: 6rem;
+      background-color: #000000 !important;
+    }
+
+    .custom-navbar .navbar-brand {
+      display: flex;
+      align-items: center;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    .custom-navbar .navbar-brand img {
+      margin-right: 0.5rem;
+    }
+
+    .navbar-collapse {
+      background-color: #000000;
+      padding: 10px;
+    }
+
+    .custom-navbar .nav-link {
+      color: #ffffff !important;
+      margin: 0rem 2rem;
+      font-weight: bold;
+    }
+
+    .custom-navbar .nav-link:hover {
+      color: #dddddd !important;
+    }
+
+    .navbar-nav {
+      flex-direction: column;
+    }
+
+    .nav-item {
+      margin-bottom: 10px;
+    }
+
+    .navbar-toggler {
+      border: none;
+    }
+
+    .navbar-toggler.active {
+      background-color: #000000;
+      border-radius: 5px;
+    }
+
+    .home-section {
+      position: relative;
+      height: calc(120vh - 6rem);
+      width: 100vw;
+      overflow: hidden;
+    }
+
+    .background-video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+    }
+
+    .welcome-text {
+      position: relative;
+      z-index: 1;
+      color: white;
+      text-align: center;
+    }
+
+    .text-center {
+      text-align: center;
+    }
+
+    .text-white {
+      color: #ffffff;
+    }
+
+    .display-3 {
+      font-size: 3rem;
+    }
+
+    .display-4 {
+      font-size: 2.5rem;
+    }
+
+    .lead {
+      font-size: 1.25rem;
+    }
+
+    .churches-section {
+      font-weight: bold;
+    }
+
+    .font-weight-bold {
+      font-weight: 700;
+    }
+
+    .fixed-top {
+      z-index: 1030;
+    }
+
+    .section-imani {
+      position: relative;
+      background-image: url('assets/img/pengakuan.jpg');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 5rem;
+    }
+
+    .section-imani h2 {
+      font-size: 3rem;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .section-imani p {
+      font-size: 1.25rem;
+      text-align: center;
+    }
+
+    .section-imani .btn-opacity {
+      display: block;
+      margin: 2rem auto;
+      background-color: rgba(255, 255, 255, 0.5);
+      color: white;
+      border: none;
+      padding: 0.75rem 2rem;
+      font-size: 1.25rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .section-imani .btn-opacity:hover {
+      background-color: rgba(255, 255, 255, 0.7);
+    }
+
+    .pengakuan-list {
+      display: none;
+      margin-top: 2rem;
+      color: white;
+    }
+
+    .pengakuan-list p {
+      text-align: left;
+      margin-left: 2rem;
+    }
+
+    .pengakuan-list ol {
+      font-size: 1.25rem;
+    }
+
+    .section-lokasi {
+      background-color: white;
+      color: black;
+      padding: 5rem 0;
+      text-align: center;
+    }
+
+    .section-lokasi h2 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+
+    .section-lokasi h3 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-top: 1rem;
+    }
+
+    .section-lokasi h4 {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-top: 0.5rem;
+    }
+
+    .btn-lokasi {
+      background-color: black;
+      color: white;
+      border: none;
+      padding: 0.75rem 2rem;
+      font-size: 1.25rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      margin-top: 2rem;
+    }
+
+    .btn-lokasi:hover {
+      background-color: #333;
+    }
+
+    .footer {
+      background-color: #000000;
+      color: #ffffff;
+      padding: 3rem 0;
+    }
+
+    .footer .logo img {
+      width: 50px;
+      height: 50px;
+      margin-right: 1rem;
+    }
+
+    .footer .footer-logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .footer a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+
+    .footer .contact-info {
+      margin-top: 1rem;
+    }
+
+    .footer .contact-info p {
+      margin: 0.25rem 0;
+    }
+
+    .footer .contact-info i {
+      margin-right: 0.5rem;
+    }
